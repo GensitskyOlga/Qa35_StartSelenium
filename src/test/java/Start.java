@@ -77,9 +77,14 @@ wd.navigate().to("https://contacts-app.tobbymarshall815.vercel.app/"); // with h
         wd.findElement(By.className("btn"));
         wd.findElement(By.cssSelector("button"));
         wd.findElement(By.cssSelector("button"));
-        wd.findElement(By.cssSelector("td"));
+        wd.findElement(By.cssSelector("td")); // cherez list i get
+        //List<WebElement> list4= wd.findElements(By.tagName("td"));
+        //WebElement element4= list.get(9);
+        //String text=element4.getText();
+       // System.out.println(text);
         //wd.findElement(By.cssSelector(""));
-        //wd.quit();
+
+        wd.quit();
 
 
 
